@@ -15,7 +15,7 @@ const app = express();
 
 // CORS options to allow requests from localhost:5500
 const corsOptions = {
-    origin: 'http://127.0.0.1:5500',
+    origin: 'https://fisfr-frontend.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   };
