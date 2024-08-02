@@ -1,11 +1,12 @@
 {
-  "name": "file-sharing",
+  "name": "fisfr",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "serve": "node server.js"
+    "server": "node server.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
